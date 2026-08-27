@@ -38,3 +38,13 @@ npm run verify     # 离线渲染 + 音频断言（需要 node-web-audio-api）
 ## 报告问题
 
 请附上浏览器与版本、复现步骤，以及是否与导出结果有关。音频类问题如果方便，附一段 WAV 比截图更有用。
+
+## 维护者待办 / Maintainer follow-up
+
+GitHub 的 Social preview 无法通过 CLI 或 API 设置，需要手动上传一次：
+
+1. 打开 `Settings` → `General` → `Social preview` → `Edit`
+2. 上传 `docs/assets/social-preview.png`（1280×640，纯色背景）
+3. 保存
+
+这个图片已经生成好放在仓库里，只需要上传。

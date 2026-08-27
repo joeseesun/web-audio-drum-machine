@@ -1,0 +1,19 @@
+{
+  "name": "AI 鼓机 DR-808 · Web Audio Drum Machine",
+  "short_name": "DR-808",
+  "description": "8 音轨 16 步进鼓机，音色全部由 Web Audio 振荡器与噪声滤波实时合成，支持 BPM/Swing/静音/独奏与 WAV 导出。",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0a0c11",
+  "theme_color": "#0d0f14",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "categories": ["music", "utilities", "entertainment"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

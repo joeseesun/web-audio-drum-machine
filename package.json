@@ -1,0 +1,22 @@
+{
+  "name": "web-audio-drum-machine",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Professional 8-track / 16-step drum machine. 100% algorithmic synthesis via Web Audio API.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "verify": "node --no-warnings --import ./scripts/register-loader.mjs scripts/verify-audio.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "node-web-audio-api": "^2.2.0",
+    "vite": "^5.4.11"
+  }
+}

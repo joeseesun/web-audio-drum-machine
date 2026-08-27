@@ -1,0 +1,23 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { width:512px; height:512px; background:#0d0f14; display:grid; place-items:center;
+         font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif; overflow:hidden; }
+  .tile { width:512px; height:512px; border-radius:112px;
+          background:linear-gradient(160deg,#232b38,#131720);
+          border:2px solid #333c4d; position:relative; display:grid; place-items:center; }
+  .grid { display:grid; grid-template-columns:repeat(4,1fr); gap:26px; padding:74px; }
+  .grid i { width:100%; aspect-ratio:1; border-radius:16px; background:#1b2029; border:1px solid #2b3241; }
+  .grid i.on { background:#4dd4ac; border-color:#7ff0cd; box-shadow:0 0 26px rgba(77,212,172,.55); }
+  .grid i.b  { background:#4dabf7; border-color:#7cc4fb; box-shadow:0 0 26px rgba(77,171,247,.5); }
+  .grid i.r  { background:#ff6b6b; border-color:#ff9b9b; box-shadow:0 0 26px rgba(255,107,107,.45); }
+  .grid i.y  { background:#ffe066; border-color:#fff0a8; box-shadow:0 0 26px rgba(255,224,102,.45); }
+</style></head>
+<body>
+  <div class="tile"><div class="grid">
+    <i class="on"></i><i></i><i class="y"></i><i></i>
+    <i class="b"></i><i></i><i class="on"></i><i class="r"></i>
+    <i class="on"></i><i></i><i class="y"></i><i></i>
+    <i class="b"></i><i class="r"></i><i class="on"></i><i></i>
+  </div></div>
+</body></html>

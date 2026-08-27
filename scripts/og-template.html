@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1200px; height: 630px; overflow: hidden;
+    background: #0a0c11;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    position: relative;
+  }
+  .glow {
+    position: absolute; border-radius: 50%; filter: blur(90px); opacity: .5;
+  }
+  .g1 { width: 620px; height: 620px; left: -160px; top: -220px; background: #4dd4ac; opacity: .16; }
+  .g2 { width: 560px; height: 560px; right: -140px; bottom: -240px; background: #4dabf7; opacity: .14; }
+  .wrap { position: relative; padding: 62px 68px; height: 100%; display: flex; flex-direction: column; }
+  .eyebrow {
+    display: inline-flex; align-items: center; gap: 10px;
+    font-size: 20px; letter-spacing: .16em; color: #4dd4ac; font-weight: 700;
+    text-transform: uppercase; margin-bottom: 22px;
+  }
+  .eyebrow i { width: 10px; height: 10px; border-radius: 50%; background: #4dd4ac; box-shadow: 0 0 14px #4dd4ac; }
+  h1 {
+    font-size: 104px; line-height: 1; font-weight: 800; letter-spacing: -.035em; color: #eef1f7;
+  }
+  h1 span { color: #4dd4ac; }
+  .sub { margin-top: 20px; font-size: 31px; color: #9aa3b8; font-weight: 500; letter-spacing: .01em; }
+  .pads { margin-top: auto; display: flex; gap: 9px; }
+  .pads i {
+    flex: 1; height: 44px; border-radius: 7px; background: #171b24; border: 1px solid #262c39;
+  }
+  .pads i.on { background: #4dabf7; border-color: #7cc4fb; box-shadow: 0 0 18px rgba(77,171,247,.55); }
+  .pads i.acc { background: #fff; border-color: #fff; box-shadow: 0 0 22px rgba(77,212,172,.8); }
+  .pads i.k { background: #ff6b6b; border-color: #ff9b9b; box-shadow: 0 0 18px rgba(255,107,107,.5); }
+  .pads i.y { background: #ffe066; border-color: #fff0a8; box-shadow: 0 0 18px rgba(255,224,102,.5); }
+  .pads i.g { background: #38d9a9; border-color: #7ff0cd; box-shadow: 0 0 18px rgba(56,217,169,.5); }
+  .foot {
+    margin-top: 26px; display: flex; align-items: center; justify-content: space-between;
+    font-size: 21px; color: #6b748a;
+  }
+  .foot b { color: #b6bfd2; font-weight: 600; }
+</style>
+</head>
+<body>
+  <div class="glow g1"></div>
+  <div class="glow g2"></div>
+  <div class="wrap">
+    <div class="eyebrow"><i></i>Web Audio Drum Machine</div>
+    <h1>DR<span>-808</span></h1>
+    <div class="sub">8 音轨 · 16 步进 · 纯算法合成鼓机</div>
+    <div class="pads">
+      <i class="acc"></i><i></i><i class="y"></i><i></i>
+      <i class="k"></i><i></i><i class="y"></i><i></i>
+      <i class="acc"></i><i></i><i class="y"></i><i class="g"></i>
+      <i class="k"></i><i></i><i class="y"></i><i></i>
+    </div>
+    <div class="foot">
+      <span>drum.qiaomu.ai</span>
+      <span><b>向阳乔木</b> · 乔木推荐</span>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Static assets are safe to crawl and are what makes the app render.
+Allow: /assets/
+Allow: /icon-192.png
+Allow: /icon-512.png
+Allow: /apple-touch-icon.png
+Allow: /og-image.png
+Allow: /manifest.webmanifest
+
+Sitemap: https://drum.qiaomu.ai/sitemap.xml
